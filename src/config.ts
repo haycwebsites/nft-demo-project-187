@@ -33,12 +33,12 @@ export interface SiteConfig {
 // =============================================================================
 
 export const siteConfig: SiteConfig = {
-  title: { el: '', en: '' },
-  description: { el: '', en: '' },
-  language: '',
-  keywords: { el: '', en: '' },
-  ogImage: '',
-  canonical: '',
-  siteId: '',
-  apiUrl: '',
+  title: { en: 'Relxtower - Real Estate Apartments' },
+  description: { en: 'Discover modern building design with luxury apartments. Find your perfect home with our premium real estate services.' },
+  language: 'en',
+  keywords: { en: 'real estate, apartments, luxury, modern design, property, residential' },
+  ogImage: '/img/slider/slider_img01.jpg',
+  canonical: 'https://relxtower.com',
+  siteId: 'relxtower',
+  apiUrl: 'https://api.relxtower.com',
 };
